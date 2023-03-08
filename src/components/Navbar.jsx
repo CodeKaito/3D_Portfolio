@@ -15,7 +15,20 @@ const Navbar = () => {
             <img src={logo2} alt="logo2" className='w-12 h-12 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer'> Jerome <span className='sm:block hidden'>| Personal Portfolio</span></p>
           </Link>
-          <p className='text-red-500'>asdsa</p>
+          <ul className='list-none hidden sm:flex flex-row gap-10'>
+            { navLinks.map((link) => (
+              <li 
+              key={link.id} 
+              className={`${
+                active === link.title
+                ? "text-white"
+                : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))}
+          </ul>
         </div>
     </nav>
   )
