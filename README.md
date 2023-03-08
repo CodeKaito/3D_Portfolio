@@ -1,5 +1,6 @@
 # 3D Portfolio Website with ThreeJS and ReactJS and ViteJS
-![3D Portfolio](!https://user-images.githubusercontent.com/57111980/223838881-4ad84f23-4aa2-48f6-9db6-ef72753a4b57.png)
+![image](https://user-images.githubusercontent.com/57111980/223839483-19af7a45-01ff-43bd-8c95-d66ccbc62f65.png)
+
 
 ## Introduction
 The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
