@@ -2,29 +2,12 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='footer'>
-        <div className='footer__container container'>
-            <h1 className='footer__title'>Kaito Inc.</h1>
-
-            <div className='footer__social'>
-                <a href='https://www.facebook.com/' 
-                className='footer__social-link' target='_blank'>
-                    <i class='bx bxl-facebook'></i>
-                </a>
-
-                <a href='https://www.instagram.com/' 
-                className='footer__social-link' target='_blank'>
-                    <i class='bx bxl-instagram'></i>
-                </a>
-
-                <a href='https://www.twitter/' 
-                className='footer__social-link' target='_blank'>
-                    <i class='bx bxl-twitter'></i>
-                </a>
-            </div>
+    <footer className='bg-white-700 text-black'>
+        <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#fffffff] py-7'>
+            <h1 className='lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>Kaito Inc.</h1>
 
             <span className='footer__copy'>
-                &#169; CodeKaito. All right reserved
+                &#169; 2023 | CodeKaito. All right reserved
             </span>
         </div>
 
