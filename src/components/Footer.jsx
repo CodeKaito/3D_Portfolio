@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#fffffff] py-7'>
             <h1 className='lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>Kaito Inc.</h1>
 
-            <div className='cursor-pointer justify-start justify-between flex md:w-[10%] my-6'>
+            <div className='cursor-pointer space-between justify-start justify-between flex md:w-[10%] my-6'>
                 <FaFacebookSquare size={30} />
                 <FaInstagram size={30} />
                 <FaTwitterSquare size={30} />
