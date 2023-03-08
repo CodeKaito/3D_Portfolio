@@ -27,7 +27,7 @@ const Footer = () => {
                     <FaGithubSquare size={30} />
                 </a>
             </div>
-            <span className='footer__copy'>
+            <span>
                 &#169; 2023 | CodeKaito. All right reserved
             </span>
         </div>
