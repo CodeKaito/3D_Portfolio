@@ -28,7 +28,7 @@ const Footer = () => {
                 </a>
             </div>
             <span>
-                &#169; 2023 | CodeKaito. All right reserved
+                Copyright &#169; 2023 | CodeKaito. All Rights Reserved
             </span>
         </div>
 
